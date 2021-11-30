@@ -1,0 +1,87 @@
+#content{
+    .oferta{
+        color: $col2;
+        text-align: center;
+        padding: 2%;
+        margin: auto;
+        max-width: 75%;
+        margin-bottom: 4%;
+        border-bottom: 1px solid $col2;
+    }
+    .fotoEma{
+        margin: auto;
+        display: block;
+    }
+    .textoEma{
+        color: #fff;
+        margin: auto;
+        text-align: justify;
+        text-justify: inter-word;
+        width: 25%;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .card{
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        width: 75%;
+    }
+    .card-body{
+        color: #fff;
+        .card-title{
+            font-size: 5em;
+            text-shadow: 1px 1px 5px $col1;
+        }
+        .card-text{
+            font-size: 2em;
+            text-shadow: 1px 1px 5px $col1;
+        }
+    }
+    .card2{
+        background-image: url('../media/albumes/fauna/fauna4.jpg');
+        border: none;
+        height: 500px;
+        width: 75%;
+        text-align: center;
+        padding: 5%;
+        .card-body2{
+            color: #fff;
+            .card-title{
+                font-size: 5em;
+                text-shadow: 1px 1px 5px $col1;
+            }
+            .card-text{
+                font-size: 2em;
+                text-shadow: 1px 1px 1px $col1;
+            }
+        }
+    }
+    .card3{
+        background-image: url('../media/albumes/retratos/portrait4.jpg');
+        border: none;
+        height: 500px;
+        width: 75%;
+        text-align: center;
+        padding: 5%;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        .card-body3{
+            color: #fff;
+            .card-title{
+                font-size: 5em;
+                text-shadow: 1px 1px 5px $col1;
+            }
+            .card-text{
+                font-size: 2em;
+                text-shadow: 1px 1px 1px $col1;
+            }
+        }
+    }
+    .card{
+        border: none;
+        background-image:url('../media/albumes/cuba/cuba4.jpg');
+        height: 500px;
+        text-align: center;
+        padding: 5%;
+    }
+}

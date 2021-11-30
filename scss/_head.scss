@@ -1,0 +1,59 @@
+#nvBar {
+    .banner {
+        background-image: url('../media/mountain.JPG');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 1%;
+        height: 500px;
+        img.logo {
+            display: block;
+            margin: auto;
+        }
+    }
+    .navBar {
+        position: sticky;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        background-color: $col1;
+        font-size: 1.2em;
+        border-top: 2px solid $col2;
+        border-bottom: 3px solid linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(216, 178, 109, 1) 50%, rgba(0, 0, 0, 1) 100%);
+        ;
+        .nav-link {
+            margin: auto;
+            font-weight: 400;
+            color: $col2;
+        }
+        .nav-link:hover {
+            color: $col3;
+            transition: 0.5s linear;
+        }
+    }
+    .divider {
+        height: 2px;
+        background: rgb(20, 20, 20);
+        background: linear-gradient(90deg, rgba(20, 20, 20, 1) 0%, rgba(20, 20, 20, 1) 50%, rgba(216, 178, 109, 1) 100%);
+    }
+}
+
+#home {
+    padding: 2%;
+    .homeTitle {
+        color: $col2;
+        margin: auto;
+        text-shadow: 1px 1px 10px $col1;
+        text-align: center;
+        font-size: 4em;
+        padding: 2%;
+    }
+    .homeSubtitle {
+        color: $col2;
+        margin: auto;
+        text-shadow: 1px 1px 3px $col1;
+        text-align: center;
+        font-size: 1.5em;
+    }
+}

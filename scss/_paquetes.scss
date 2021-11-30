@@ -1,0 +1,78 @@
+#paquetes {
+    background-color: $col1;
+    padding: 5%;
+    .servicios {
+        color: $col2;
+        font-size: 4em;
+        margin: auto;
+        text-align: center;
+        padding: 2%;
+        max-width: 75%;
+        margin-bottom: 50px;
+        border-bottom: 1px solid $col2;
+    }
+    .cardServicios {
+        .card {
+            background-color: $col1;
+            border: none;
+            transition: 250ms linear;
+            margin: 50px;
+            margin-bottom: 50px;
+            .card-title {
+                color: #fff;
+                text-shadow: 1px 1px 25px $col1;
+                transition: 250ms linear;
+                font-size: 3em;
+            }
+            .card-text {
+                font-size: 1.4em;
+                text-shadow: 1px 1px 25px $col1;
+                color: #fff;
+            }
+            .precio {
+                color: $col2;
+                font-size: 2.5em;
+                transition: 250ms linear;
+            }
+            font-size: 1.2em;
+            .btn:focus,
+            .btn:active {
+                outline: none !important;
+                box-shadow: none;
+            }
+            .btn-outline-primary {
+                border: 1px solid $col2;
+                color: $col2;
+            }
+            .btn-outline-primary:hover {
+                border: 1px solid $col2;
+                background-color: $col2;
+                color: $col1;
+            }
+            .btn-outline-primary:active {
+                border: none;
+                background-color: $col1 !important;
+                color: $col1;
+                outline: none !important;
+            }
+        }
+        .card:hover {
+            background-color: $col2;
+            .card-title {
+                color: $col1;
+                font-size: 2.5em;
+            }
+            .card-text {
+                font-size: 1.4em;
+                color: $col1;
+            }
+            .precio {
+                color: $col1;
+            }
+            .btn-outline-primary {
+                border: 1px solid $col1;
+                color: $col1;
+            }
+        }
+    }
+}

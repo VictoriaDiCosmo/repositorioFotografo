@@ -1,0 +1,34 @@
+#gallery{
+    background-color: $col1;
+    .albumes{
+        .albumTitle{
+            color: $col2;
+            margin: auto;
+            text-align: center;
+            font-size: 4em;
+            padding: 2%;
+        }
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    .galeria {
+        img {
+            width: 100%;
+            height: auto;
+            padding: 30px;
+            border-radius: 40px;
+          }
+        img:hover{
+            transform: scale(1.1);
+            transition: 500ms cubic-bezier(1, 0, 0, 2);
+        }
+      }
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+  }
+}

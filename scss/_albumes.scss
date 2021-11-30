@@ -1,0 +1,62 @@
+#content{
+    background-color: $col1;
+    padding: 5%;
+    .albumes{
+        .albumTitle{
+            color: $col2;
+            margin: auto;
+            text-align: center;
+            padding: 2%;
+            max-width: 70%;
+            border-bottom: 1px solid $col2;
+            margin-bottom: 50px;
+        }
+        a{
+            text-decoration: none;
+            color: $col2;
+        }
+        .albumText{
+            padding: 1%;
+            animation:cubic-bezier(1, 0, 0, 1); 
+            height: 300px;
+            border-bottom: 4px solid $col2;
+            color: white;
+            text-shadow: 1px 1px 5px $col1;
+            border-radius: 15px;
+            text-align:right;
+            filter: grayscale(100%);
+            -webkit-filter: grayscale(100%);
+        }
+        .bgParallax{
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+            transform: translateZ(999px) scale(.7);
+            z-index: 1;
+            -webkit-transform: translateZ(999px) scale(.9);
+        }
+        .bgParallax:hover{
+            filter:none();
+            transition: 250ms linear;
+            -webkit-filter: grayscale(0);
+        }
+        .retrato{
+            background-image: url("../media/albumes/woman.JPG");
+            margin: auto;
+        }
+        .cuba{
+            background-image: url("../media/albumes/cuba3.JPG");
+            margin: auto;
+        }
+        .patagonia{
+            background-image: url("../media/albumes/patagonia.JPG");
+            margin: auto;
+        }
+        .flora{
+            background-image: url("../media/albumes/bird.JPG");
+            margin: auto;
+        }
+    }
+}

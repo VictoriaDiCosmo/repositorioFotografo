@@ -1,0 +1,508 @@
+@import "vars";
+@import "head";
+@import "galerias";
+@import "index";
+@import "footer";
+@import "albumes";
+@import "cursos";
+@import "paquetes";
+@import "contacto";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: $col1;
+}
+
+
+/*SERVICIOS*/
+
+@media all and (max-width: 768px) {
+    #paquetes {
+        .servicios {
+            font-size: 2em;
+        }
+        .cardServicios {
+            padding: 10px;
+            .card {
+                .card-title {
+                    font-size: 1em;
+                }
+                .card-text {
+                    font-size: .7em;
+                }
+                .precio {
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #paquetes {
+        .servicios {
+            font-size: 4em;
+        }
+        .cardServicios {
+            padding: 10px;
+            .card {
+                .card-title {
+                    font-size: 1.8em;
+                }
+                .card-text {
+                    font-size: 1.2em;
+                }
+                .precio {
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: 1200px) {
+    #paquetes {
+        .servicios {
+            font-size: 4em;
+        }
+        .cardServicios {
+            padding: 10px;
+            .card {
+                .card-title {
+                    font-size: 2em;
+                }
+                .card-text {
+                    font-size: 1.2em;
+                }
+                .precio {
+                    font-size: 1.8em;
+                }
+            }
+        }
+    }
+}
+
+
+/*BIO INDEX*/
+
+@media all and (max-width: 768px) {
+    #content {
+        max-width: 100%;
+        margin: auto;
+        .oferta {
+            font-size: 2em;
+        }
+        .fotoEma {
+            margin: auto;
+            width: 35%;
+        }
+        .textoEma {
+            font-size: 1em;
+            margin-top: 2rem;
+            width: 75%;
+        }
+        .card {
+            height: 25%;
+            .card-body {
+                font-size: .5em;
+            }
+        }
+        .card2 {
+            height: 25%;
+            .card-body2 {
+                font-size: .5em;
+            }
+        }
+        .card3 {
+            height: 25%;
+            .card-body3 {
+                font-size: .5em;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #content {
+        .oferta {
+            font-size: 4em;
+        }
+        .fotoEma {
+            margin: auto;
+            width: 20%;
+        }
+        .textoEma {
+            font-size: 1.2em;
+            width: 30%;
+        }
+    }
+}
+
+
+/*HEAD*/
+
+@media all and (max-width:768px) {
+    #home {
+        .homeTitle {
+            font-size: 2.3em;
+        }
+        .homeSubtitle {
+            font-size: 1.2em;
+        }
+        img.logo {
+            display: inline;
+            margin: auto;
+        }
+    }
+}
+
+
+/*CURSOS*/
+
+@media all and (max-width: 768px) {
+    #cursos {
+        .cursosTitle {
+            font-size: 2em;
+        }
+        .card {
+            .card-title {
+                font-size: 1.4em;
+            }
+            .card-text {
+                font-size: .9em;
+            }
+            .plan {
+                font-size: .9em;
+            }
+        }
+        li {
+            font-size: .6em;
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #cursos {
+        .cursosTitle {
+            font-size: 4em;
+        }
+        .card {
+            .card-title {
+                font-size: 2.3em;
+            }
+            .card-text {
+                font-size: 1.4em;
+            }
+        }
+        li {
+            font-size: 1em;
+        }
+    }
+}
+
+
+/*CONTACTO*/
+
+@media all and (max-width: 768px) {
+    #contacto {
+        .contactoTitle {
+            font-size: 1.3em;
+        }
+        .form-group {
+            width: 70%;
+            .form-control {
+                font-size: .7em;
+            }
+            .form-group.label {
+                font-size: .2em;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #contacto {
+        .contactoTitle {
+            font-size: 2.5em;
+        }
+        .form-group {
+            width: 50%;
+            .form-control {
+                font-size: 1em;
+            }
+            .form-group.label {
+                font-size: 5em;
+            }
+        }
+    }
+}
+
+
+/*GALERIAS*/
+
+@media only screen and (max-width: 700px) {
+    #gallery {
+        .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #gallery {
+        .responsive {
+            width: 100%;
+        }
+    }
+}
+
+
+/*LOGO*/
+
+@media all and (max-width: 768px) {
+    #nvBar {
+        .banner {
+            img {
+                width: 250px;
+                margin-left: 15%;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #nvBar {
+        .banner {
+            img {
+                width: 250px;
+                margin: auto;
+            }
+        }
+    }
+}
+
+
+/*NAVBAR*/
+
+@media all and (max-width: 768px) {
+    #nvBar {
+        .navBar {
+            font-size: .2em;
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #nvBar {
+        .navBar {
+            font-size: 1.2em;
+        }
+    }
+}
+
+
+/*ALBUMES*/
+
+@media all and (max-width: 768px) {
+    #content {
+        .albumes {
+            .albumTitle {
+                font-size: 1.6em;
+            }
+            .albumText {
+                font-size: 3em;
+                padding: 50px;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #content {
+        .albumes {
+            .albumTitle {
+                font-size: 4em;
+            }
+            .albumText {
+                font-size: 6em;
+                padding: 50px;
+            }
+        }
+    }
+}
+
+
+/*FOOTER*/
+
+@media all and (max-width: 768px) {
+    footer.foot {
+        .footerText {
+            font-size: .7em;
+        }
+        .footerLogos a img {
+            width: 60px;
+        }
+        .footerLogo img {
+            width: 1%;
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    footer.foot {
+        .footerLogo img {
+            width: 50%;
+        }
+    }
+}
+
+
+/*CONTACTO*/
+
+@media all and (max-width: 768px) {
+    #contacto {
+        .contactoTitle {
+            font-size: 1.3em;
+        }
+        .form-group {
+            width: 70%;
+            .form-control {
+                font-size: .7em;
+            }
+            .form-group.label {
+                font-size: .2em;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #contacto {
+        .contactoTitle {
+            font-size: 2.5em;
+        }
+        .form-group {
+            width: 50%;
+            .form-control {
+                font-size: 1em;
+            }
+            .form-group.label {
+                font-size: 5em;
+            }
+        }
+    }
+}
+
+
+/*GALERIAS*/
+
+@media only screen and (max-width: 700px) {
+    #gallery {
+        .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #gallery {
+        .responsive {
+            width: 100%;
+        }
+    }
+}
+
+
+/*LOGO*/
+
+@media all and (max-width: 768px) {
+    #nvBar {
+        .banner {
+            img {
+                width: 250px;
+                margin-left: 15%;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #nvBar {
+        .banner {
+            img {
+                width: 250px;
+                margin: auto;
+            }
+        }
+    }
+}
+
+
+/*NAVBAR*/
+
+@media all and (max-width: 768px) {
+    #nvBar {
+        .navBar {
+            font-size: .6em;
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #nvBar {
+        .navBar {
+            font-size: 1.2em;
+        }
+    }
+}
+
+
+/*ALBUMES*/
+
+@media all and (max-width: 768px) {
+    #content {
+        .albumes {
+            .albumTitle {
+                font-size: 1.6em;
+            }
+            .albumText {
+                font-size: 3em;
+                padding: 50px;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #content {
+        .albumes {
+            .albumTitle {
+                font-size: 4em;
+            }
+            .albumText {
+                font-size: 6em;
+                padding: 50px;
+            }
+        }
+    }
+}
+
+
+/*FOOTER*/
+
+@media all and (max-width: 768px) {
+    footer.foot {
+        .footerText {
+            font-size: .7em;
+        }
+        .footerLogos img {
+            width: 70px;
+        }
+    }
+}

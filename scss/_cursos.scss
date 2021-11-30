@@ -1,0 +1,50 @@
+#cursos {
+    background-color: $col1;
+    padding: 2%;
+    .cursosTitle {
+        color: $col2;
+        margin: auto;
+        text-align: center;
+        padding: 2%;
+        max-width: 75%;
+        border-bottom: 1px solid $col2;
+        margin-bottom: 50px;
+    }
+    .card {
+        background-color: $col1;
+        color: $col2;
+        border: none;
+        padding: 50px;
+        transition: 250ms linear;
+        margin: auto;
+        .card-body {
+            .plan {
+                font-size: 1.2em;
+                .btn:focus,
+                .btn:active {
+                    outline: none !important;
+                    box-shadow: none;
+                }
+                .btn-outline-primary {
+                    border: 1px solid $col2;
+                    color: $col2;
+                }
+                .btn-outline-primary:hover {
+                    border: 1px solid $col2;
+                    background-color: $col2;
+                    color: $col1;
+                }
+                .btn-outline-primary:active {
+                    border: none;
+                    background-color: $col1 !important;
+                    color: $col1;
+                    outline: none !important;
+                }
+            }
+        }
+    }
+    .card:hover {
+        background-color: white;
+        color: $col1;
+    }
+}
